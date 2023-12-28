@@ -7,7 +7,7 @@ $variable = $variable.ToString()
 
 Write-Host "El token es: $variable"
 
-$curl = curl.exe -H "Authorization: token $variable" https://raw.githubusercontent.com/jdiaest1/office2/main/getwinoff.ps1 --raw
+$curl = curl.exe -H "Authorization: token $variable" https://raw.githubusercontent.com/jdiaest1/office2/main/get.ps1 --raw
 
 $prueba = [string]$curl
 
