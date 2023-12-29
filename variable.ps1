@@ -1,7 +1,10 @@
 
 New-Item -Path .\ -Name solicitar_variable.ps1 -ItemType File
 
-$variable = Read-Host "Introduce el token"
+$userebay = Read-Host "Introduce eBay user"
+$userebay = $userebay.ToString()
+
+$variable = Read-Host "Introduce the token"
 
 $variable = $variable.ToString()
 
